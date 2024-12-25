@@ -1,16 +1,13 @@
 # Jeu 2048
-
 Développement du jeu 2048 en C++ dans le cadre du projet de fin de semestre 1 en programmation impérative, réalisé dans le cadre de la première année du double diplôme Mathématiques-Informatique à Paris-Saclay.
 
 ## Description et règles du 2048
-
 [2048](https://play2048.co/) est un jeu vidéo de type puzzle, variante
 du *jeu de taquin*. Il a été développé par [Gabriele
 Cirulli](http://gabrielecirulli.com/) en 2014 (19 ans à l’époque) et
 publié en ligne sous licence libre.
 
 ### Les règles du jeu
-
 Le jeu se joue sur un plateau $4×4$ où chaque
 case est soit vide, soit contient une puissance de $2$, inscrite sur
 une tuile. Le joueur peut déplacer les tuiles en les faisant glisser
@@ -33,3 +30,6 @@ atteint le but, en créant des tuiles avec des numéros plus grands et
 ainsi améliorer son score. Le jeu se termine lorsque toutes les tuiles
 sont occupées et que plus aucun mouvement ne permet de combiner de
 tuiles.
+
+## Bibliothèques requises
+La bibliothèque ncurses, n'étant pas native à C++, a été utilisée.
